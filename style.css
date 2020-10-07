@@ -13,12 +13,14 @@ body {
 }
 
 #wrapper {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
   width: 500px;
-  margin: 0 auto;
+  overflow: hidden;
 }
 
 #wrapper img {
+  transform-origin: center center;
+  object-fit: cover;
   width: 100%;
-  border: solid navy 2px;
-  border-radius: 10px;
+  height: 100%;
 }
